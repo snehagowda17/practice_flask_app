@@ -11,6 +11,7 @@ def home():
     return jsonify({
         "message": "Flask JSONPlaceholder API is running",
         "routes": ["/posts", "/comment", "/albums"]
+        "data":["successfully committed"]
     })
 
 
